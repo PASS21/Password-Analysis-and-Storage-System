@@ -1,8 +1,6 @@
 tasks:
   - init: |
-      sudo touch /tmp/.apt-lock
       sudo apt update -y && sudo apt upgrade -y  && sudo apt install python3 python3-pip python3-virtualenv -y && sudo apt update -y && sudo pip3 install jupyter pandas sympy pwnedpasswords
-      sudo rm /tmp/.apt-lock
     command: sudo jupyter-notebook
    
     
