@@ -13,7 +13,7 @@ Sophisticated command-line password manager written entirely in Python
 
 # How to get the code:
 
-`winget install git` - if you don't have git - [Latest WinGet release](https://github.com/microsoft/winget-cli/releases/download/v1.1.12653/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle)
+`winget install git` ( if you don't have git) - If you also do not have `winget` ,  [Latest WinGet release](https://github.com/microsoft/winget-cli/releases/download/v1.1.12653/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle)
 
 `git clone https://github.com/PASS21/Password-Analysis-and-Storage-System/ pass-cli`
 
