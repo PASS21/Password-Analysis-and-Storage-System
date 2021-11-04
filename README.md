@@ -8,6 +8,8 @@ Sophisticated command-line password manager written entirely in Python
 (in Beta)
 
 
+[![Gradient](https://assets.paperspace.io/img/gradient-badge.svg)](https://console.paperspace.com/github/PASS21/Password-Analysis-and-Storage-System/PASSWORD.ipynb)
+
 ### Todo:
 - create an .exe version (if possible)
 - add zipped folder in Releases
