@@ -3,7 +3,7 @@ Sophisticated command-line password manager written entirely in Python
 
 <--- add stuff later --->
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PASS21/Password-Analysis-and-Storage-System.git/HEAD)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/PASS21/Password-Analysis-and-Storage-System/)
 
 
 ### Todo:
