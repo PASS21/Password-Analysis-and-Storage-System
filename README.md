@@ -11,6 +11,7 @@ Sophisticated command-line password manager written entirely in Python
 
 ![Jupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)
 
+
 ### Todo:
 - create an .exe version (if possible)
 - add zipped folder in Releases
