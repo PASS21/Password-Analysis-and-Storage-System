@@ -5,8 +5,6 @@
 <!-- ![Jupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter?style=for-the-badge&logo=Jupyter) -->
 ![Made with Doom Emacs](https://img.shields.io/badge/Made_with-Doom_Emacs-blueviolet.svg?style=round&logo=GNU%20Emacs&logoColor=white)
 
-![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-
 ### Todo:
 - create an .exe version (if possible)
 - add zipped folder in Releases
