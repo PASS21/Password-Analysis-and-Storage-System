@@ -9,7 +9,7 @@
 - create an .exe version (if possible)
 - Add support for Firefox logins (currently impossible)
 
-## Note: `Python` and `pip` have to be in PATH (it usually is for macOS/Linux, [how to add it to Windows PATH](https://www.makeuseof.com/python-windows-path)
+### Note: `Python` and `pip` have to be in PATH (it usually is for macOS/Linux, [how to add it to Windows PATH](https://www.makeuseof.com/python-windows-path)
 
 # How to get the code:
 
