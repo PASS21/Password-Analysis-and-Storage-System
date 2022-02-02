@@ -7,7 +7,7 @@
 
 ### Todo:
 - create an .exe version (if possible)
-- Add support for Firefox logins
+- Add support for Firefox logins (currently impossible)
 
 
 
