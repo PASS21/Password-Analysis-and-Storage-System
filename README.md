@@ -23,3 +23,15 @@
 
 Then run the last cell in the .ipynb file - or the full .py file 
 
+### If you want an executable file for Windows:
+- Type this in Command Prompt: 
+- `git clone https://github.com/PASS21/Password-Analysis-and-Storage-System PASS && cd PASS` (If you don't have the repo)
+- then `pip install -U py2exe`
+- Create a `setup.py` file having the following content:
+```python
+from distutils.core import setup
+import py2exe
+setup(console=['PasswordSystem.py'])
+```
+- Run `python setup.py py2exe`
+- Wait for some time , then run `dist/PasswordSystem.exe`
