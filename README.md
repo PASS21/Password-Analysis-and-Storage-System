@@ -18,7 +18,7 @@
 
 ` cd pass-cli`
 
-` cd %localappdata%\Programs\Python\Python* && .\Scripts\pip.exe install -U jupyter pandas sympy pwnedpasswords `
+` cd %localappdata%\Programs\Python\Python* && Scripts\pip.exe install -U jupyter pandas sympy pwnedpasswords `
 
 Then run the last cell in the .ipynb file - or the full .py file 
 
