@@ -10,6 +10,9 @@
 
 ### Note: `Python` and `pip` have to be in PATH (it usually is for macOS/Linux, [how to add it to Windows PATH](https://www.makeuseof.com/python-windows-path) )
 *If the system version of Python (on macOS) is too old, download a newer version of Python , either from the website or using `HomeBrew`*
+*On Linux, use your package manager to update Python - if even that version is old, you may have to*
+- Install  `git`, `make` and `build-essential` using your package manager
+- Run `git clone https://github.com/python/cpython.git && cd cpython && ./configure --prefix /opt/python3.8 && make && make install && ln -s /opt/python3.8/bin/python3.8 /usr/bin/python3`
 
 # How to get the code:
 If you don't have Git:
