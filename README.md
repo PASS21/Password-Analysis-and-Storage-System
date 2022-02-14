@@ -6,7 +6,6 @@
 ![Made with Doom Emacs](https://img.shields.io/badge/Made_with-Doom_Emacs-blueviolet.svg?style=round&logo=GNU%20Emacs&logoColor=white)
 
 ### Todo:
-- create an .exe version (if possible)
 - Add support for Firefox logins (currently impossible)
 
 ### Note: `Python` and `pip` have to be in PATH (it usually is for macOS/Linux, [how to add it to Windows PATH](https://www.makeuseof.com/python-windows-path) )
