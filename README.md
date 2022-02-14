@@ -12,8 +12,9 @@
 *If the system version of Python (on macOS) is too old, download a newer version of Python , either from the website or using `HomeBrew`*
 
 # How to get the code:
-
-`winget install git` ( if you don't have git) - If you also do not have `winget` ,  get the [Latest WinGet release](https://github.com/microsoft/winget-cli/releases/download/v1.1.12653/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle)
+If you don't have Git:
+- If you also do not have `winget` ,  get the [Latest WinGet release](https://github.com/microsoft/winget-cli/releases/download/v1.1.12653/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle)
+- `winget install git` ( if you don't have git) 
 
 `git clone https://github.com/PASS21/Password-Analysis-and-Storage-System/ pass-cli`
 
@@ -21,7 +22,7 @@
 
 ` pip.exe install -U jupyter pandas sympy pwnedpasswords `
 
-Then run the last cell in the .ipynb file - or the full .py file 
+Then run the Jupyter Notebook or the Python file.
 
 ### If you want an executable file for Windows:
 - Type this in Command Prompt: 
