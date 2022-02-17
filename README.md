@@ -8,7 +8,7 @@
 ### Todo:
 - Add support for Firefox logins (currently impossible)
 
-### Note: `Python` and `pip` have to be in PATH (it usually is for macOS/Linux, [how to add it to Windows PATH](https://www.makeuseof.com/python-windows-path) )
+### Note: `Python` and `pip` have to be in PATH (it usually is for macOS/Linux, [here's how to add it to PATH in  Windows](https://www.makeuseof.com/python-windows-path) )
 *If the system version of Python (on macOS) is too old, download a newer version of Python , either from the website or using `HomeBrew`*
 
 *On Linux, use your package manager to update Python - if even that version is old, you may have to*
