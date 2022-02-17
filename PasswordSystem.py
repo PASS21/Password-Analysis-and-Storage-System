@@ -116,7 +116,7 @@ def breachCheck(passwd):
 
 #def displayLogins(masterKeyInput):
 def displayLogins(masterKeyInput=((open(r'./.MasterKey.txt')).read()).strip()):
-        '''
+    '''
     This is a function that helps display the contents of "Passwds.csv", which may be imported directly
     from the browser, or modified using the other functions below.
     It uses a library called "pandas" to display the passwords in a neat tabular form.
