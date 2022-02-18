@@ -123,7 +123,7 @@ def displayLogins(masterKeyInput=((open(r"./.MasterKey.txt")).read()).strip()):
     import sys
 
     import pandas as pd
-    actualMasterKey = ((open(r"./.MasterKey.txt")).read()).strip() # obscuring actualMasterKey - hence in a different file.
+    actualMasterKey = ((open(r"./.MasterKey.txt")).read().strip()) # obscuring actualMasterKey - hence in a different file.
     if masterKeyInput==actualMasterKey:
         print("Authorization success. Displaying gathered passwords : \n\n")
         return pd.read_csv(r"Passwds.csv") # the standard csv.reader() gives an ugly output.
