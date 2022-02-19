@@ -3,7 +3,9 @@
 <!-- [![Gradient](https://assets.paperspace.io/img/gradient-badge.svg)](https://console.paperspace.com/github/PASS21/Password-Analysis-and-Storage-System/blob/main/Passwd.ipynb?clone=True) -->
 
 <!-- ![Jupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter?style=for-the-badge&logo=Jupyter) -->
-![Made with Doom Emacs](https://img.shields.io/badge/Made_with-Doom_Emacs-blueviolet.svg?style=round&logo=GNU%20Emacs&logoColor=white)
+![Made with Doom Emacs](https://img.shields.io/badge/Made_with-Doom_Emacs-blueviolet.svg?style=round&logo=GNU%20Emacs&logoColor=white)    
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PASS21/Password-Analysis-and-Storage-System/main)
 
 ### Todo:
 - Add support for Firefox logins (currently impossible)
