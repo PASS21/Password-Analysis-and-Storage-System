@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- encoding: utf-8 -*-
 
 
@@ -352,7 +352,7 @@ def mainMenu():
     """Main menu"""
     from os import path
     print("Initialising database...",end=" ")
-    dictionary()
+    # dictionary()
     print("Done.")
     get_os()
     header = r"""
