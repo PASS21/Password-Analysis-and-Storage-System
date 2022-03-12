@@ -69,7 +69,7 @@ def strength(passwd):
     if passwd in words_dict: # checking dictionary files
         passwordStrength-=10
     #print(f"Strength of the password is : {round(passwordStrength,4)}")
-    return round(passwordStrength,4)
+    print(round(passwordStrength,4))
 
 
 def get_os():
@@ -475,7 +475,7 @@ def main_func():
         deleteLogins()
 
     if str(choice)=="6":
-        paswd = getpass("Enter password: ")
+        paswd = getpass("Enter password to be checked: ")
         breachCheck(paswd)
 
     if str(choice)=="7":
