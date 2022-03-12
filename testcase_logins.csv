@@ -1,0 +1,6 @@
+name,url,username,password
+a.com,https://a.com/login,a@a.com,**
+b.com,https://b.com/auth,b@b.com,*******
+c.com,https://c.com/login,c@c.com,******
+d.com,https://d.com/login,d@d.com,***************
+e.com,https://e.com/oauth,e@e.com,edrft65rytg65rtugyh3w6tuyghbE46R5TUGHEDX6TYUGHBNGYHK
