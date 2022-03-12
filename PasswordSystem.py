@@ -2,6 +2,7 @@
 # -*- encoding: utf-8 -*-
 
 
+#  stats size? 
 
 words_dict=""
 
