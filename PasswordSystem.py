@@ -1,5 +1,7 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 # -*- encoding: utf-8 -*-
+
+
 
 words_dict=""
 
@@ -174,7 +176,7 @@ def writeLogins(masterKeyInput):
 def editLogins(masterKeyInput):
     """
     This is a function that facilitates modification of entered login details - in case the user needs
-    to rectify something entered wrongly. Can be used in conjunction with "displayLogins()".
+    to rectify something entered wrongly.
     """
     import csv
     import sys
@@ -282,7 +284,7 @@ def deleteLogins():
             nm = input("Enter website name: ")
             url = input("Enter website URL: ")
             usrnm = input("Enter username: ")
-            pswd = getpass("Enter password: ")
+            #pswd = getpass("Enter password: ") Can't ask for the password!
             csvFile = open("Passwds.csv","r")
             names,urls,usernames,passwords = [],[],[],[]
             for row in csvFile:
@@ -294,12 +296,7 @@ def deleteLogins():
                     passwords = passwords + [(str(line[3]))]
                 else:
                     row = ""","","","""
-            for i in range(1,len(names)):
-                if names[i]==nm and urls[i]==url and usernames[i]==usrnm and passwords[i]==pswd:
-                    del names[i]
-                    del urls[i]
-                    del usernames[i]
-                    del passwords[i]
+            csvFile.close()
             csvFile = open("Passwds.csv","w")
             csvWriter = csv.writer(csvFile,lineterminator="\n")
             csvWriter.writerow(("name","url","username","password"))
@@ -307,12 +304,12 @@ def deleteLogins():
             csvFile = open("Passwds.csv","a")
             csvWriter = csv.writer(csvFile,lineterminator="\n")
             for i in range(1,len(names)):
-                csvWriter.writerow((names[i],urls[i],usernames[i],passwords[i]))
-            print("Deleted successfully (if present) !")
+                if names[i]!=nm and urls[i]!=url and usernames[i]!=usrnm:
+                    csvWriter.writerow((names[i],urls[i],usernames[i],passwords[i]))
+            print("Logins deleted successfully!")
         else:
             import sys
-            sys.stderr.write("\nAuthorization failure. Try again.\n")
-            deleteLogins()
+            sys.stderr.write("\nAuthorization failure. You can\'t delete passwords.")
     elif not os.path.exists("./.MasterKey.txt"):
         q()
 
@@ -350,7 +347,7 @@ def mainMenu():
     """Main menu"""
     from os import path
     print("Initialising database...",end=" ")
-    # dictionary()
+    #dictionary()
     print("Done.")
     get_os()
     header = r"""
@@ -412,7 +409,7 @@ def main_func():
 
         elif not os.path.isfile("./Passwds.csv"):
             from os import getcwd
-            print("Let\'s  import passwords from your web browser...",end=" ")
+            print("Let\"s  import passwords from your web browser...",end=" ")
             importPasswords()
             sleep(1.0)
             print(f"Done.\nFile saved at {getcwd()}/Passwds.csv .\nRename and move as you like, and maybe DELETE the file after use.")
