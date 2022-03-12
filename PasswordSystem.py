@@ -319,7 +319,7 @@ def deleteLogins():
 def q():
     """Simple question"""
     from getpass import getpass
-    qn = getpass("Create a MasterKey for accessing all your passwords !")
+    qn = getpass("Create a MasterKey for accessing all your passwords: ")
     confirmation = getpass("Confirm MasterKey: ")
     if qn==confirmation:
         with open("./.MasterKey.txt","w") as f:
