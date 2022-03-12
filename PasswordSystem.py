@@ -236,7 +236,7 @@ def editLogins(masterKeyInput):
         csvWriter = csv.writer(csvFile,lineterminator="\n")
         for i in range(1,len(names)):
             csvWriter.writerow((names[i],urls[i],usernames[i],passwords[i]))
-        print("Logins edited/added successfully! ")
+        print("Logins edited successfully! ")
     else:
         sys.stderr.write("\nAuthorization failure. You can\'t edit passwords.")
 
@@ -469,7 +469,7 @@ def main_func():
             print("Authenticate yourself !  ")
             imk = getpass("Enter master key first: ") #no need to ask it again ???
             editLogins(imk)
-            print("Logins edited/added successfully !")
+            print("Logins edited successfully !")
 
     if str(choice)=="5":
         deleteLogins()
