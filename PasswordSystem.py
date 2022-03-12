@@ -413,7 +413,7 @@ def main_func():
 
         elif not os.path.isfile("./Passwds.csv"):
             from os import getcwd
-            print("Let\"s  import passwords from your web browser...",end=" ")
+            print("Let\'s  import passwords from your web browser...",end=" ")
             importPasswords()
             sleep(1.0)
             print(f"Done.\nFile saved at {getcwd()}/Passwds.csv .\nRename and move as you like, and maybe DELETE the file after use.")
