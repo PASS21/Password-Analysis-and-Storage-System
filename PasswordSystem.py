@@ -111,7 +111,7 @@ def eval_time():
         print("Defaulting to 5 passwords/sec")
         no_of_cracked_passwords_per_sec=5
     no_of_possible_passwords = Sum(94**k,(k,4,256)).doit()
-    time = no_of_possible_passwords * (1/no_of_cracked_passwords_per_sec) # time is in seconds 
+    time = no_of_possible_passwords * strength(passwd) * (1/no_of_cracked_passwords_per_sec) # time is in seconds 
     print(f"It takes {time} seconds to crack {passwd} @ {no_of_cracked_passwords_per_sec} cracked per second")
 
 
