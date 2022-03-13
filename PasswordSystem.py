@@ -7,7 +7,7 @@ def importPasswords():
     """Function to import passwords from a csv file exported from browsers."""
     csvFile = open(r"Passwds.csv","w+") # will contain the imported/new login credentials.
     browserCsvLocation = input("Enter path to file: ")
-    browserPwds = open(browserCsvLocation) #"browserpwds" contains the passwords from browsers" csv files.
+    browserPwds = open(browserCsvLocation) #"browserpwds" contains the passwords from browsers' csv files.
 
     blank = ""
     for row in browserPwds:
